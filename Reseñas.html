@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8">
+<title>Reseñas</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/*estilo del encabezado*/
+header {
+  background-color:rosybrown;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/*estilos de los íconos redes sociales*/
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 6px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: darkred;
+  color: white;
+}
+.fa-instagram {
+  background: darkred;
+  color: white;
+}
+.fa-twitter {
+  background: darkred;
+  color: white;
+}
+.fa-youtube {
+  background: darkred;
+  color: white;
+}
+
+
+/*estilo del menu horizontal*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rosybrown;
+  font-size: 23px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkred;
+}
+.active {
+  background-color: darkred;
+}
+
+* {box-sizing: border-box}
+body {font-family: gotu; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/*sección de las reseñas*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 06px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* estilo del footer */
+footer {
+  list-style-type: none;
+  background-color: rosybrown;
+  padding: 8px;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <p style="float: right">
+    <a href="#" class="fa fa-facebook"></a>
+    <a target="_blank" href="https://www.instagram.com/miro_is_lava/" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a></p>
+ <h1 style="background-color:rosybrown; color:white; text-align:center" >Rincón GEKA</h1>   
+</header>
+
+<ul class="topnav">
+  <li><a href="Geka.html">Inicio</a></li>
+  <li><a href="Quienes.html">Quiénes somos</a></li>
+  <li><a href="Eventos.html">Eventos</a></li>
+  <li><a class= "active" href="Reseñas.html">Reseñas</a></li>
+</ul>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="La sombra del viento.html">
+      <img src="Sombra.jpg" width="600" height="400">
+    </a>
+    <div class="desc"><b>La sombra del viento</b><br>Carlos Ruiz Zafón</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="12 cuentos peregrinos.html">
+      <img src="peregrinos.jpg" width="600" height="400">
+    </a>
+    <div class="desc"><b>12 cuentos peregrinos</b><br>Gabriel García Márquez</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="Cumbres borrascosas.html">
+      <img src="cumbres.jpg" width="600" height="400">
+    </a>
+    <div class="desc"><b>Cumbres Borrascosas</b><br>Emily Brontë</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="1984.html">
+      <img src="1984.jpg" width="600" height="400">
+    </a>
+    <div class="desc"><b>1984</b><br>George Orwell</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<br>
+
+</body>
+
+<footer>
+  <blockquote>
+    <p style= "float: right;"><b>Sitios que pueden interesarte</b><br>
+    <a style="color: darkred" target="_blank" href="https://www.cartasdeunlector.com/">Cartas de un lector</a><br>
+    <a style="color: darkred" target="_blank" href="http://www.elem.mx/">Enciclopedia de la literatura en México</a><br>
+    <a style="color: darkred" target="_blank" href="https://literatura.unam.mx/">Literatura UNAM</a>
+  </p>
+ <b>Rincón GEKA</b>
+ <p><b>CONTÁCTANOS</b></p>
+ <p><b>Correo electrónico</b><br>
+ rincon.geka@gmail.com<br>
+ <p><b>Teléfono</b><br>
+ 8111234567</p>
+  </blockquote>
+</footer>
+
+</html>

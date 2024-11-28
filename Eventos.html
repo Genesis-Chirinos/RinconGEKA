@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8">
+<title>Eventos</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/*estilo del encabezado*/
+header {
+  background-color:rosybrown;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/*estilos de los íconos redes sociales*/
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 6px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: darkred;
+  color: white;
+}
+.fa-instagram {
+  background: darkred;
+  color: white;
+}
+.fa-twitter {
+  background: darkred;
+  color: white;
+}
+.fa-youtube {
+  background: darkred;
+  color: white;
+}
+
+
+/*estilo del menu horizontal*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rosybrown;
+  font-size: 23px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	background-color: darkred;
+}
+.active {
+  background-color: darkred;
+}
+
+* {box-sizing: border-box}
+body {font-family: gotu; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/*sección para resaltar el evento principal*/
+div {
+  float: center;
+  padding: 10px;
+  background-color: indianred;
+  margin: 20px 180px 20px 190px;
+  clear: both;
+  color: white;
+  font-size: 18px;
+  height:auto;
+  overflow: hidden;
+}
+
+/*sección con vínculos a videos*/
+article.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+article.desc {
+  margin: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 32.5%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.solid {border-style: solid; color: darkred;}
+
+/* estilo del footer */
+footer {
+  list-style-type: none;
+  background-color: rosybrown;
+  padding: 8px;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <p style="float: right">
+    <a href="#" class="fa fa-facebook"></a>
+    <a target="_blank" href="https://www.instagram.com/miro_is_lava/" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a></p>
+<h1 style="background-color:rosybrown; color:white; text-align:center" >Rincón GEKA</h1>
+</header>
+
+<ul>
+  <li><a href="Geka.html">Inicio</a></li>
+  <li><a href="Quienes.html">Quiénes somos</a></li>
+  <li><a class= "active" href="Eventos.html">Eventos</a></li>
+  <li><a href="Reseñas.html">Reseñas</a></li>
+</ul>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<br>
+<div>
+  <h1 style= "text-align: center">Evento de la semana</h1> 
+  <p style= "text-align: center"><b>Semillero Orquesta Sinfónica Comunitaria Vasco de Quiroga</b></p>
+  <p style= "text-align: center">Evento presencial en el UNAM Centro Cultural Morelia<br>
+  Miércoles 20 de noviembre de 2024 a las 17 horas <br>
+  ¿Te interesa asistir a este evento? ¡Registra tu asistencia en el siguiente formulario!</p><br>
+  <img src="Orquesta.jpg" style= "float:left; padding-left: 30px;width:370px;height:375px;">
+  <iframe style="float:right; padding-right: 30px; width:550px; height:450px;" src="https://forms.office.com/Pages/ResponsePage.aspx?id=EZDKymp73kSGHwlaLKiDt2MTOG0LLLZIsSpgtq0z-JVUQ1VUTTRIVVgzTTJFQjZZV08xVzYyRFNaRC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+  <br>
+  <br>
+  <br>
+</div>
+
+<hr style="color: darkred; margin: 30px;">
+
+<section style= "padding-left: 36px;">
+  <h1 style="color:darkred;"> Próximos eventos</h1>
+  <article class="responsive">
+    <article class="gallery">
+        <img width="320" height="350" src="Orquesta.jpg">
+      </a>
+        <article class="desc" style="text-align:center;">Semillero Orquesta Sinfónica Comunitaria Vasco de Quiroga
+         <p class="solid"><a target="blank" href="https://web.facebook.com/photo/?fbid=1109715067832238&set=a.640766838060399"><span style="color: darkred;">Más información</span></a>
+         </p>
+        </article>
+    </article>
+  </article>
+
+  <article class="responsive">
+    <article class="gallery">
+        <img width="320" height="350" src="Conarte.jpg">
+      </a>
+        <article class="desc" style="text-align:center;">Performance "A light to light the work"
+         <p class="solid"><a target="blank" href="https://www.facebook.com/photo/?fbid=996941579128000&set=a.491342156354614"><span style="color: darkred;">Más información</span></a>
+         </p>
+        </article>
+    </article>
+  </article>
+
+  <article class="responsive">
+    <article class="gallery">
+        <img width="320" height="350" src="Bazar.jpg">
+      </a>
+        <article class="desc" style="text-align:center;">Bazar cultural
+         <p class="solid"><a target="blank" href="https://www.facebook.com/photo/?fbid=577856654933329&set=a.187472807305051"><span style="color: darkred;">Más información</span></a>
+         </p>
+        </article>
+    </article>
+  </article>
+ </section> 
+
+<hr style="color: darkred; margin: 30px;">
+
+<section style= "padding-left: 36px;">
+ <h1 style="color:darkred;">Eventos en línea</h1>
+<article class="responsive">
+  <article class="gallery">
+    <iframe width="410" height="240" src="https://www.youtube.com/embed/DaBSIh3fBdI?si=uCOqYOGspVsivWdp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <article class="desc">Día internacional de la Corrección de Textos: Anécdotas y mitos del mundo de la corrección
+    </article>
+  </article>
+</article>
+
+<article class="responsive">
+  <article class="gallery">
+    <iframe width="410" height="240" src="https://www.youtube.com/embed/LMQBXPqwUVw?si=IQMffvQi6hfrHBV1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <article class="desc">Taller | Herramientas de software libre para la corrección</article>
+  </article>
+</article>
+
+<article class="responsive">
+  <article class="gallery">
+    <iframe width="410" height="240" src="https://www.youtube.com/embed/IRS6ClDowg0?si=SGZOV5RVMWV63ehM" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <article class="desc">Irene Vallejo: una charla sobre las emociones universales y la necesidad del silencio | El espectador</article>
+  </article>
+</article>
+</section>
+<br>
+
+</body>
+
+<footer>
+  <blockquote>
+    <p style= "float: right;"><b>Sitios que pueden interesarte</b><br>
+    <a style="color: darkred" target="_blank" href="https://www.cartasdeunlector.com/">Cartas de un lector</a><br>
+    <a style="color: darkred" target="_blank" href="http://www.elem.mx/">Enciclopedia de la literatura en México</a><br>
+    <a style="color: darkred" target="_blank" href="https://literatura.unam.mx/">Literatura UNAM</a>
+  </p>
+ <b>Rincón GEKA</b>
+ <p><b>CONTÁCTANOS</b></p>
+ <p><b>Correo electrónico</b><br>
+ rincon.geka@gmail.com<br>
+ <p><b>Teléfono</b><br>
+ 8111234567</p>
+  </blockquote>
+</footer>
+
+</html>

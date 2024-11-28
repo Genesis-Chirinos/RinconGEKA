@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8">
+<title>La sombra del viento</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/*estilo del encabezado*/
+header {
+  background-color:rosybrown;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/*estilos de los íconos redes sociales*/
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 6px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: darkred;
+  color: white;
+}
+.fa-instagram {
+  background: darkred;
+  color: white;
+}
+.fa-twitter {
+  background: darkred;
+  color: white;
+}
+.fa-youtube {
+  background: darkred;
+  color: white;
+}
+
+/*estilo del menu horizontal*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rosybrown;
+  font-size: 23px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	background-color: darkred;
+}
+.active {
+  background-color: darkred;
+}
+
+* {box-sizing: border-box}
+body {font-family: gotu; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 35%;
+  height: 500px
+  padding-left: 100px;
+  font-family: 'Dosis';
+  font-size: 20px;
+}
+
+/* Style the list inside the menu */
+nav .img {
+  padding-left: 10px;
+  font-family: 'Dosis';
+  font-style: 20px;
+}
+
+article {
+  float: left;
+  padding: 40px;
+  width: 55%;
+  height: auto;
+  background-color: mistyrose;
+  font-family: 'Dosis';
+  font-size: 20px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: auto;
+}
+
+
+/* estilo del footer */
+footer {
+  background-color: rosybrown;
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <p style="float: right; padding: 0px;">
+    <a href="#" class="fa fa-facebook"></a>
+    <a target="_blank" href="https://www.instagram.com/miro_is_lava/" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a></p>
+<h1 style="background-color:rosybrown; color:white; text-align:center" >Rincón GEKA</h1>
+</header>
+
+<ul>
+  <li><a href="Geka.html">Inicio</a></li>
+  <li><a href="Quienes.html">Quiénes somos</a></li>
+  <li><a href="Eventos.html">Eventos</a></li>
+  <li><a href="Reseñas.html">Reseñas</a></li>
+</ul>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<br>
+<p>
+  <a style="color: darkred; font-size: 14px; padding-left: 90px" href="Reseñas.html">>Vuelve para más reseñas</a>
+</p>
+<section>
+  <nav>
+    <img src="Sombra.jpg" style="width:300px;height:305px;padding-left: 90px;">
+    <h1 style= "padding-left: 90px;">La sombra del viento</h1>
+    <p style= "padding-left: 90px;">Carlos Ruiz Zafón<br>
+      Novela<br>
+      Temática: Misterio, Drama, Ficción gótica<br>
+      Editorial Planeta<br>
+      España, 2003<br>
+      ISBN: 978-0307472595<br>
+      478 páginas<br></p>
+  </nav>
+  
+  <article>
+  <h1 style="color: darkred; text-align: center;">Reseña de "La sombra del viento"</h1>
+  <p>Los libros pueden cambiar tu vida.</p>
+  <p>Esta historia se sitúa en la Barcelona de la primera mitad del siglo XX, pocos años después del final de la guerra civil española. Daniel Sempere es llevado por su padre al Cementerio de los Libros Olvidados donde escoge el libro “La sombra del viento” de Julián Carax (y el libro lo escoge a él).</p>
+  <p>Desde ese momento sus vidas se entrecruzan de una manera muy interesante, que me mantuvo pegada a sus páginas hasta el final. Era super intrigante ver cómo dos personas totalmente diferentes tenían más en común de lo que hubieran imaginado.</p>
+  <p>Disfruté mucho la lectura, me encariñé con los personajes y amé la narrativa. Aunque el tamaño pueda intimidar a algunos, es fácil de leer y, por lo menos para mí, el tiempo pasaba volando mientras leía.</p>
+  <p>Algunos lo aman, otros no tanto, pero yo estoy segura de que por lo menos una de sus tantas frases icónicas te llegará al corazón.</p>
+  </article>
+</section>
+
+<br>
+
+<hr style="color: darkred; margin-left: 50px; margin-right: 50px">
+
+<section>
+  <p style="margin: 30px 80px 20px 80px; font-size: 18px;">Esperamos que esta reseña te haya ayudado a decidirte leer el libro o para conocer otro punto de vista. Si te gustó no dudes en compartirla con tus amigos o familiares para seguir tejiendo la red de lectores. Si has leído el libro nos gustaría conocer tu opinión, puedes comentarnos en nuestras redes sociales, nos encuentras en todos lados como Rincón Geka. ¡Nos vemos allá! <br>
+    <br>
+    <i style="color:darkred;">Redactado por: Génesis Chirinos</b></i>
+</section>
+
+<footer>
+  <blockquote>
+ <b>Rincón GEKA</b>
+ <p><b>CONTÁCTANOS</b></p>
+ <p><b>Correo electrónico</b><br>
+ rincon.geka@gmail.com<br>
+ <p><b>Teléfono</b><br>
+ 8111234567</p>
+  </blockquote>
+</footer>
+
+</body>
+
+</html>

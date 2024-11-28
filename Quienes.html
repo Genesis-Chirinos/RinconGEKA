@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8">
+<title>Quiénes somos</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/*estilo del encabezado*/
+header {
+  background-color:rosybrown;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/*estilos de los íconos redes sociales*/
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 6px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: darkred;
+  color: white;
+}
+.fa-instagram {
+  background: darkred;
+  color: white;
+}
+.fa-twitter {
+  background: darkred;
+  color: white;
+}
+.fa-youtube {
+  background: darkred;
+  color: white;
+}
+
+
+/*estilo del menu horizontal*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rosybrown;
+  font-size: 23px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	background-color: darkred;
+}
+.active {
+  background-color: darkred;
+}
+
+* {box-sizing: border-box}
+body {font-family: gotu; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/*Sección article para los párrafos*/
+article {
+  float: left;
+  padding: 40px;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  font-family: gotu;
+  font-size: 20px; 
+  padding-left: 60px;
+}
+
+/* estilo del footer */
+footer {
+  list-style-type: none;
+  background-color: rosybrown;
+  padding: 8px;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <p style="float: right">
+    <a href="#" class="fa fa-facebook"></a>
+    <a target="_blank" href="https://www.instagram.com/miro_is_lava/" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a></p>
+<h1 style="background-color:rosybrown; color:white; text-align:center" >Rincón GEKA</h1>
+</header>
+
+<ul>
+  <li><a href="Geka.html">Inicio</a></li>
+  <li><a class= "active" href="Quienes.html">Quiénes somos</a></li>
+  <li><a href="Eventos.html">Eventos</a></li>
+  <li><a href="Reseñas.html">Reseñas</a></li>
+</ul>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<section>
+ <article>
+  <h1 style= "color: darkred">Quiénes somos</h1>
+  <p>Rincón GEKA es un grupo de diversas lectoras que se proponen crear un espacio dedicado a la promoción de la cultura literaria. Creemos en el poder transformador de las palabras y buscamos formar una comunidad donde lectores, escritores y amantes del arte puedan converger para aprender, compartir y crecer. Nuestro equipo trabaja para ofrecer materiales literarios, reseñas, talleres, conferencias y foros de discusión que enriquezcan la experiencia cultural y literaria de nuestros visitantes.</p>
+  <h1 style= "color: darkred">Misión</h1>
+  <p>Fomentar la lectura y la cultura mediante la difusión de contenido literario, la creación de espacios virtuales de comunicación y el fortalecimiento de una comunidad activa e inclusiva, comprometida con el intercambio de ideas y la sana convivencia.</p>
+  <h1 style="color:darkred">Visión</h1>
+  <p>Convertirnos en un referente en el ámbito literario y cultural, reconocido por nuestra capacidad para difundir, inspirar y conectar a personas apasionadas por las letras y las artes en un entorno dinámico y colaborativo.</p>
+  <h1 style="color:darkred">Nuestro compromiso</h1>
+  <p>En Rincón GEKA, nos esforzamos por mantener un diálogo constante con nuestra comunidad lectora a través de foros de discusión y un apartado de reseñas donde nuestros visitantes pueden compartir sus perspectivas y experiencias sobre las diferentes lecturas. </p>
+ </article>
+
+ <article>
+  <h1 style="color: darkred;">Responsables</h1>
+   <p>Estudiantes de la licenciatura de Edición y Gestión de la Cultura de la Facultad de Filosofía y Letras de la UANL.</p>
+    <p style="color: darkred;"><b>Alexandra Castillo Alfaro</b></p>
+    <img src="Alexandra.jpg" width="200" height="200">
+    <p style="color: darkred;"><b>Génesis Lizeth Chirinos Sánchez</b></p>
+    <img src="Génesis.jpg" width="200" height="200">
+    <p style="color: darkred;"><b>Karla Vanessa Ríos Rodríguez</b></p>
+    <img src="Karla.jpg" width="200" height="200">
+ </article>
+</section>
+
+<footer>
+  <blockquote>
+ <p style= "float: right;"><b>Sitios que pueden interesarte</b><br>
+    <a style="color: darkred" target="_blank" href="https://www.cartasdeunlector.com/">Cartas de un lector</a><br>
+    <a style="color: darkred" target="_blank" href="http://www.elem.mx/">Enciclopedia de la literatura en México</a><br>
+    <a style="color: darkred" target="_blank" href="https://literatura.unam.mx/">Literatura UNAM</a>
+  </p>
+ <p><b>Rincón GEKA</b></p>
+ <p><b>CONTÁCTANOS</b></p>
+ <p><b>Correo electrónico</b><br>
+ rincon.geka@gmail.com<br>
+ <p><b>Teléfono</b><br>
+ 8111234567</p>
+    </blockquote>
+</footer>
+
+</body>
+</html>
